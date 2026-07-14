@@ -6,8 +6,6 @@
 
 This repository contains four selectable sorting strategies and an independent terminal benchmark for comparing their operation counts.
 
-> **Authorship:** the sorting algorithms, adaptive strategy and graphical benchmark described below were designed and implemented by `sasilves`.
-
 ## Overview
 
 The program receives all values in stack `a`; stack `b` starts empty. A valid execution must:
@@ -614,21 +612,6 @@ Keep in mind:
 - ratings are most meaningful with random inputs and enough runs.
 
 For reproducible results, record the complete command and seed.
-
-## Complexity
-
-| Component | Expected complexity | Notes |
-|---|---:|---|
-| Duplicate detection | `O(n²)` | New values are compared with existing nodes |
-| Index assignment | `O(n²)` | Counts smaller values for each node |
-| Disorder measurement | `O(n log n)` | Merge-sort inversion counting |
-| Simple | `O(n²)` | Repeated minimum search and rotations |
-| Medium | Approximately `O(n√n)` | Dynamic-window behavior |
-| Complex | `O(n log n)` | One complete scan per binary bit |
-| Controlled generation | `O(n log n)` | Inversion sequence and Fenwick decoding |
-| Output verification | `O(n + operations)` | Initializes stacks and applies instructions |
-
-Actual operation counts also depend on rotations, input structure and implementation constants.
 
 ## Technical decisions
 
