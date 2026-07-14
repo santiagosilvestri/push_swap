@@ -8,21 +8,6 @@ This repository contains four selectable sorting strategies and an independent t
 
 > **Authorship:** the sorting algorithms, adaptive strategy and graphical benchmark described below were designed and implemented by `sasilves`.
 
-## Contents
-
-- [Overview](#overview)
-- [Build and usage](#build-and-usage)
-- [Program architecture](#program-architecture)
-- [Available operations](#available-operations)
-- [Sorting algorithms](#sorting-algorithms)
-- [Project structure](#project-structure)
-- [Internal bench mode](#internal-bench-mode)
-- [Graphical benchmark](#graphical-benchmark)
-- [Complexity](#complexity)
-- [Contributions](#contributions)
-- [Resources](#resources)
-- [AI usage](#ai-usage)
-
 ## Overview
 
 The program receives all values in stack `a`; stack `b` starts empty. A valid execution must:
@@ -665,18 +650,6 @@ Actual operation counts also depend on rotations, input structure and implementa
 |---|---|
 | `sasilves` | Stack operations and positioning utilities; simple, medium, complex and adaptive algorithms; optimized disorder measurement; complete graphical benchmark; internal verifier; controlled input generation; terminal graph; benchmark protections; testing and documentation |
 | `jzelada-` | Parsing support; flag modularization; internal bench metrics; header organization; libft integration; Makefile support and testing |
-
-### Work by `sasilves` highlighted here
-
-- all four sorting strategies;
-- adaptive thresholds and routing;
-- minimum/maximum positioning logic;
-- the complete `ps_benchmark` tool;
-- same-input comparison methodology;
-- deterministic and controlled input generation;
-- internal output verification;
-- statistics, graph rendering and logarithmic scale;
-- performance ratings and safety limits.
 
 ## Resources
 
